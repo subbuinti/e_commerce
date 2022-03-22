@@ -1,0 +1,33 @@
+.main-section {
+  width: calc(100% - 20%);
+  float: right;
+  margin-top: 5.5rem;
+}
+.sale_picture {
+  width: 80%;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  margin: 0rem auto;
+}
+.card__container {
+  margin-top: 3rem;
+  margin-left: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.items-list h3 {
+  font-size: 1.75rem;
+  margin-top: 1.75rem;
+  text-transform: uppercase;
+  color: #2c2c2c;
+}
+.items-list h3::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 15rem;
+  margin: 0 0rem;
+  background-color: #fb641b;
+}
+

@@ -1,0 +1,41 @@
+
+.cards-section__offers {
+  width: 18rem;
+}
+.offer-item__img {
+  width: 18rem;
+  height: 12rem;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.holder__details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.holder__details p {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.card__heading {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 1px; 
+  text-align: center;
+}
+.card__heading h3::after {
+  content: "";
+  margin-top: 0.5rem !important;
+  background-color: #fb641b;
+  height: 2px;
+  width: 3.5rem;
+  display: block;
+  margin: 0rem auto;
+}
+.card__heading p {
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}

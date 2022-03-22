@@ -1,0 +1,49 @@
+.itemsinWishlist {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-start ;
+  flex-wrap: wrap;
+}
+.itemContainer {
+  width: 20rem;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  padding: 0.5rem 0.5rem;
+}
+.itemImage img {
+  width: 25em;
+  height: 15rem;
+}
+.button_container {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 3rem;
+  align-items: center;
+}
+.button_container button {
+  font-size: 0.8rem;
+  padding: 0.25rem 0.5rem;
+  margin: 0.5rem auto;
+  background: white;
+  border: 1px solid #2c2c2c;
+  border-radius: 6px;
+  transition: all 0.5s;
+}
+.button_container button:first-child {
+  background-color: #fa3333;
+  color: white;
+  border: none;
+}
+.button_container button:last-child {
+  background-color: #84f684;
+  border: none;
+}
+.button_container button:hover {
+  transform: translateY(-0.35rem);
+}
